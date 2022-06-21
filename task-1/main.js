@@ -13,7 +13,12 @@ prompt.get('input', function (err, result) {
     var n = parseInt(numbers[0]); // Ilk daxil olunmuş ədədi alırıq. Nümunə - 2 
     var last = parseInt(numbers[1]); // İkinci daxil olunmuş ədədi alırıq. Nümunə - 3
     var first = parseInt(numbers[2]);
-    if(n<100){
-        console.log(last + first)
-    }
+    let n = 55
+let last = n % 10
+let first = parseInt(n / 10)
+
+if(n<100){
+    console.log(last + first)
+}
+    
 });
