@@ -14,11 +14,11 @@ prompt.get('input', function (err, result) {
     var last = parseInt(numbers[1]); // İkinci daxil olunmuş ədədi alırıq. Nümunə - 3
     var first = parseInt(numbers[2]);
     let n = 55
-let last = n % 10
-let first = parseInt(n / 10)
-
-if(n<100){
-    console.log(last + first)
-}
+    if(n<100){
+        let last = n % 10
+    let first = parseInt(n / 10)
+        console.log(last + first)
+    }
+    
     
 });
